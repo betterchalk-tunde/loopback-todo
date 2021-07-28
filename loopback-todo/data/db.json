@@ -1,7 +1,9 @@
 {
   "ids": {
     "Todo": 6,
-    "TodoList": 4
+    "TodoList": 4,
+    "User": 7,
+    "UserCredentials": 3
   },
   "models": {
     "Todo": {
@@ -15,6 +17,14 @@
       "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
       "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}",
       "3": "{\"title\":\"loopback-todo\",\"color\":\"green\",\"id\":3}"
+    },
+    "User": {
+      "2": "{\"id\":\"2\",\"realm\":\"string\",\"username\":\"string\",\"email\":\"olutunde@betterchalk.com\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}",
+      "string": "{\"id\":\"string\",\"realm\":\"string\",\"username\":\"string\",\"email\":\"tunde@betterchalk.com\",\"emailVerified\":true,\"verificationToken\":\"string\",\"additionalProp1\":{}}"
+    },
+    "UserCredentials": {
+      "9b45cca0-6b3e-43f7-bdbe-7c67af40d16d": "{\"id\":\"9b45cca0-6b3e-43f7-bdbe-7c67af40d16d\",\"password\":\"$2a$10$Xu34bSklcwbd5rdadHJTT.yT.2kE2Sz9VU7CHs0kcdVnVk92xzWUC\",\"userId\":\"string\"}",
+      "6a417e07-a110-4930-a816-995a69486fe6": "{\"id\":\"6a417e07-a110-4930-a816-995a69486fe6\",\"password\":\"$2a$10$KNplYRQU0m2C55ju/Im0UOZDm0pwvVwrapBSv8fizvAkg.JM3sWKe\",\"userId\":\"2\"}"
     }
   }
 }
